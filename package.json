@@ -1,0 +1,36 @@
+{
+  "name": "sails-generate-githooks",
+  "version": "0.1.6",
+  "description": "sails generate githooks",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "githooks",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express": "^4.10.1",
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "debug": "^2.1.0"
+  },
+  "devDependencies": {
+    "debug": "^2.1.0",
+    "fs-extra": "*",
+    "reportback": "*",
+    "sails-generate": "*"
+  },
+  "sailsGenerator": {
+    "type": "githooks",
+    "behavior": "overrides `sails generate githooks`",
+    "sailsVersion": "~0.10.0"
+  }
+}
